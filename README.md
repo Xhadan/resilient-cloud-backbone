@@ -45,3 +45,31 @@ Detailed architecture documentation lives in `docs/`.
 ---
 
 ## Repository Structure
+.
+├── README.md
+├── docs/
+│ ├── architecture.md
+│ └── architecture-diagram.md
+└── infra/ # CDK code (to be added)
+
+---
+
+## Current Status
+- Architecture v1 defined
+- Conceptual architecture diagram documented
+- Implementation pending
+
+---
+
+## Future Enhancements
+- AWS CDK implementation
+- Route 53 failover routing policies
+- WAF integration
+- Observability (CloudWatch metrics and alarms)
+- Cost and failure-mode analysis
+
+---
+
+
+
+
